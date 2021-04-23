@@ -1,0 +1,74 @@
+.enteredTask {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: 1px solid #CCC;
+}
+
+.deleteButtonWrapper {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.deleteButton {
+    float: right;
+}
+
+.deleteSpan {
+    display: flex;
+    flex: 4;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+.cardSubtitle {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+.checkboxWrapper{
+    display: flex;
+    flex: 1;
+}
+
+.cardFix {
+    height: 100%;
+}
+
+.columnFix {
+    margin-bottom: 20px;
+}
+
+.jumbotronFix {
+    border: 1px solid black;
+    background-color: azure;
+}
+
+.userFix {
+    font-size: 40px;
+}
+
+.categoryFix {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.categoryAll {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.taskCategory {
+    display: flex;
+    flex: 1 1;
+    justify-content: center;
+    border: 1px solid black;
+    background-color: azure;
+    flex-direction: column;
+}

@@ -1,0 +1,11 @@
+.loginWrapper{
+    height: 100vh;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.maincolumn {
+    max-height: 150px;
+}
